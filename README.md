@@ -1,1 +1,1 @@
-# Proyect-Party-Web-Invites-
+# PartyWebInvites
