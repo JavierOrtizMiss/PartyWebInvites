@@ -10,15 +10,12 @@ body {
 
 .content-logo {
     position: relative;
-    width: 400px;
+    width: 41%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
+    justify-content: left;
+    align-items: center;
+    background-position: center center;
 }
 
-.content-logo img {
-    width: 300px;
-    height: auto;
-}
