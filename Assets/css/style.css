@@ -8,14 +8,26 @@ body {
     background-color: #FFFDF3;
 }
 
-.content-logo {
+.wedding-section {
+    width: 1440px;
+    height: 606px;
+    margin: 50px 0 0;
     position: relative;
-    width: 41%;
-    height: auto;
+    overflow: hidden;
+}
+
+content-logo {
+    max-width: 100%;
+    width: 570px;
+    height: 570px;
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    background-position: center center;
+    position: relative;
+}
+
+text-container {
+    text-align: center;
+    
 }
 
