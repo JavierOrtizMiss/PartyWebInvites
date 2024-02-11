@@ -1,33 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-
-body {
+/* Reset de estilos */
+* {
     margin: 0;
     padding: 0;
-    background-color: #FFFDF3;
+    box-sizing: border-box;
 }
 
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif; /* Usamos Montserrat como fuente predeterminada */
+    background-color: #fffdf3;
+}
+
+/* Para los elementos que quieres con la fuente MonteCarlo */
+.fiancee h1,
+.fiance h1,
+.nexus h1 {
+    font-family: 'MonteCarlo', cursive;
+}
+
+#wrapper-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la sección de la boda */
 .wedding-section {
-    width: 1440px;
-    height: 606px;
-    margin: 50px 0 0;
-    position: relative;
-    overflow: hidden;
-}
-
-content-logo {
-    max-width: 100%;
-    width: 570px;
-    height: 570px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-text-container {
     text-align: center;
-    
+    padding: 50px 0;
+}
+
+.content-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    margin-bottom: 20px;
+}
+
+.sentence p {
+    color: #6d4343;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wedding-date p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6d4343;
+}
+
+/* Estilos para la imagen */
+.content-logo img {
+    max-width: 30%; /* Reducir aún más el tamaño */
+    height: auto;
+    position: relative; /* Permitir posicionamiento relativo */
+    top: 20px; /* Mover la imagen hacia abajo */
+    left: 20px; /* Mover la imagen hacia la derecha */
 }
 
