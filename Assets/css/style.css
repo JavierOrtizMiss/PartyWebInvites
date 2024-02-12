@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     background-color: #fffdf3;
 }
 
@@ -45,41 +43,60 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.sentence p {
+.sentence p,
+.fiancee h1,
+.nexus h1,
+.fiance h1,
+.wedding-date p {
     color: #6d4343;
-    font-size: 24px;
     font-weight: 600;
+}
+
+.sentence p {
+    font-size: 3vw;
 }
 
 .fiancee h1,
 .nexus h1,
 .fiance h1 {
-    color: #6d4343;
-    font-size: 36px;
-    font-weight: 600;
-    margin: 10px 0;
+    font-size: 5vw;
+    margin: 1vw 0;
 }
 
 .wedding-date p {
-    color: #6d4343;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 2vw;
 }
 
-
 .content-logo img {
-    max-width: 39.5%; 
+    max-width: 100%;
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .content-logo img {
-        max-width: 100%; 
-        margin-bottom: 20px; 
+@media screen and (min-width: 769px) {
+    .sentence p {
+        font-size: 24px;
     }
 
-    .text-container {
-        position: static;
-        transform: none;
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 70px; 
+        margin: -50px 0; 
     }
+
+    .wedding-date p {
+        font-size: 18px;
+    }
+
+    .content-logo img {
+        max-width: 60%;
+    }
+}
+
+
+.scale {
+    transform: scale(0.95); 
+    transform-origin: center;
+    position: fixed; 
+    left: 9%; 
 }
