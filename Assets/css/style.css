@@ -1,41 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat&display=swap');
 
+/* Establecer propiedades a todos los elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Propiedades al body */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fffdf3;
 }
 
+/* Establecer fuente del texto */
 .fiancee h1,
 .fiance h1,
 .nexus h1 {
     font-family: 'MonteCarlo', cursive;
 }
-
-#wrapper-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
+/* Propiedades a seccion wedding-section */
 .wedding-section {
     text-align: center;
     padding: 50px 0;
 }
 
-.content-logo {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* Posicionar el texto del inicio */
 .text-container {
     position: absolute;
     top: 50%;
@@ -43,60 +33,92 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* Establecer color */
 .sentence p,
 .fiancee h1,
 .nexus h1,
 .fiance h1,
 .wedding-date p {
-    color: #6d4343;
+    color: #7A2B38;
     font-weight: 600;
 }
 
-.sentence p {
-    font-size: 3vw;
+.image-engaged {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, -50%);
 }
 
-.fiancee h1,
-.nexus h1,
-.fiance h1 {
-    font-size: 5vw;
-    margin: 1vw 0;
-}
-
-.wedding-date p {
-    font-size: 2vw;
-}
-
-.content-logo img {
-    max-width: 100%;
+.image-engaged img{
+    border-radius: 3%;
+    border: 2px solid #7A2B38;
+    width: 550px;
     height: auto;
+    transform: rotate(5deg);
+
 }
 
-@media screen and (min-width: 769px) {
+.image-down img {
+    width: 300px;
+    height: auto;
+    transform: rotate(5deg);
+}
+
+/* Propiedades para pantallas de 769px */
+@media screen and (min-width: 768px) {
     .sentence p {
-        font-size: 24px;
+        font-size: 25px;
+        margin: 20px;
+        margin-left: 50px;
+        margin-top: 100px;
     }
 
     .fiancee h1,
     .nexus h1,
     .fiance h1 {
-        font-size: 70px; 
-        margin: -50px 0; 
+        font-size: 100px; 
+        
+    }
+
+    .fiancee h1{
+        margin: -50px;
+    }
+
+    .nexus{
+        margin: -125px;
+    }
+
+    .fiance {
+        margin: 70px;
+        margin-left: 50px;
     }
 
     .wedding-date p {
         font-size: 18px;
+        margin: 50px;
+        margin-top: -70px;
     }
 
     .content-logo img {
         max-width: 60%;
     }
+
+    .image-engaged {
+        margin-top: -3%;
+    }
+
+    .image-down {
+        margin-top: 25.7%;
+        margin-left: 32%;
+
+    }
 }
-
-
+/* Propiedades a todo el conjunto del marco */
 .scale {
     transform: scale(0.95); 
     transform-origin: center;
     position: fixed; 
     left: 9%; 
+    top: 10%;
 }
