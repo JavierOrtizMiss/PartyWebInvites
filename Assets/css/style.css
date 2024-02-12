@@ -91,67 +91,7 @@ audio {
 }
 
 
-
-
-
-/* Propiedades para pantallas de 769px */
-@media screen and (max-width: 1920px){
-    .sentence p {
-        font-size: 2rem; 
-        margin: 2rem; 
-        margin-left: 3.125rem; 
-        margin-top: 6.25rem; 
-    }
-
-    .fiancee h1,
-    .nexus h1,
-    .fiance h1 {
-        font-size: 8rem; 
-    }
-
-    .fiancee h1{
-        margin: -3.125rem;
-    }
-
-    .nexus{
-        margin: -7.8125rem; 
-    }
-
-    .fiance {
-        margin: 4.3rem; 
-        margin-left: 3.12rem; 
-    }
-
-    .wedding-date p {
-        font-size: 1.5rem; 
-        margin: 3rem; 
-        margin-top: -4rem;
-    }
-
-    .content-logo img {
-        max-width: 60%;
-    }
-
-    .image-engaged {
-        margin-top: -6rem; 
-    }
-
-    .image-down {
-        margin-top: -24rem; 
-        margin-left: 35rem; 
-    }
-/* Propiedades a todo el conjunto del marco */
-.scale {
-    transform: scale(0.59);
-    transform-origin: center;
-    margin-top: -8%;
-    margin-left: -30%;
-}
-    
-}
-
-
-@media screen and (max-width: 1441px){
+@media screen and (min-width: 769px){
     .sentence p {
         font-size: 2rem; 
         margin: 1rem; 
