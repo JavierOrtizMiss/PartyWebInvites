@@ -40,7 +40,8 @@ body {
 .fiancee h1,
 .nexus h1,
 .fiance h1,
-.wedding-date p {
+.wedding-date p,
+.text-song p {
     color: #7A2B38;
     font-weight: 600;
 }
@@ -69,6 +70,16 @@ body {
 .flowers img{
     width: 100%;
 }
+
+.text-song {
+    text-align: center;
+}
+
+audio {
+    margin: 7rem;
+}
+
+
 
 /* Propiedades para pantallas de 769px */
 @media screen and (max-width: 1920px){
@@ -165,11 +176,11 @@ body {
     }
 
     .image-engaged {
-        margin-top: -1rem; 
+        margin-top: 1rem; 
     }
 
     .image-down {
-        margin-top: -23rem; 
+        margin-top: -25rem; 
         margin-left: 35rem; 
     }
 
@@ -179,6 +190,16 @@ body {
     margin-top: -33%;
     margin-left: -40%;
 }
+
+.text-song p{
+    font-size: 1rem;
+}
+
+audio {
+    transform-origin: center;
+    margin-left: 35.5rem;
+}
+
     
 }
 
