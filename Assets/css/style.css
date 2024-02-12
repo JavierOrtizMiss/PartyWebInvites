@@ -62,7 +62,7 @@ body {
 }
 
 .image-down img {
-    width: 18.75rem;
+    width: 12rem;
     height: auto;
     transform: rotate(5deg);
 }
@@ -73,11 +73,20 @@ body {
 
 .text-song {
     text-align: center;
+    margin: 1rem;
 }
 
 audio {
-    margin: 7rem;
+    margin: 1rem;
 }
+
+.red-box {
+    background-color: #961227;
+    border-radius: 1rem; 
+    border: 0.125rem solid #FCEEBF;
+}
+
+
 
 
 
@@ -141,7 +150,7 @@ audio {
 @media screen and (max-width: 1441px){
     .sentence p {
         font-size: 2rem; 
-        margin: 2rem; 
+        margin: 1rem; 
         margin-left: 3.125rem; 
         margin-top: 6.25rem; 
     }
@@ -149,7 +158,7 @@ audio {
     .fiancee h1,
     .nexus h1,
     .fiance h1 {
-        font-size: 8rem; 
+        font-size: 10rem; 
     }
 
     .fiancee h1{
@@ -176,12 +185,12 @@ audio {
     }
 
     .image-engaged {
-        margin-top: 1rem; 
+        margin-top: 4rem; 
     }
 
     .image-down {
-        margin-top: -25rem; 
-        margin-left: 35rem; 
+        margin-top: -27rem; 
+        margin-left: 46rem; 
     }
 
 .scale {
@@ -192,12 +201,21 @@ audio {
 }
 
 .text-song p{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 audio {
+    position: absolute;
+    transform: translate(34.5rem,0rem);
+    display: flex;
+}
+
+.red-box {
+    width: 800px; /* Define el ancho del div */
+    height: 495px; /* Define la altura del div */
     transform-origin: center;
-    margin-left: 35.5rem;
+    margin-top: 15%;
+    margin-left: 23%;
 }
 
     
