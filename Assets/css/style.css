@@ -105,18 +105,18 @@ body {
     }
 
     .image-engaged {
-        margin-top: -3rem; 
+        margin-top: -6rem; 
     }
 
     .image-down {
-        margin-top: -20rem; 
+        margin-top: -24rem; 
         margin-left: 35rem; 
     }
 /* Propiedades a todo el conjunto del marco */
 .scale {
     transform: scale(0.59);
     transform-origin: center;
-    margin-top: -9%;
+    margin-top: -8%;
     margin-left: -30%;
 }
     
@@ -172,7 +172,7 @@ body {
 .scale {
     transform: scale(0.59);
     transform-origin: center;
-    margin-top: -15%;
+    margin-top: -9%;
     margin-left: -30%;
 }
     
