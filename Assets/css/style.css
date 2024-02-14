@@ -90,6 +90,25 @@ audio {
     border: 0.125rem solid #FCEEBF;
 }
 
+.pbox1 p{
+    color: #FFFAE8;
+    font-weight: 600;
+    font-style:inherit;
+    text-align: center;
+    margin: 3.5rem;
+}
+
+.elementor-divider{
+    border: 0.05rem solid #FFFAE8; 
+    width: 45rem;
+}
+
+.text1 p{
+    text-align: center;
+    color: #FFFAE8;
+    font-family: 'MonteCarlo', cursive;
+    margin: 2rem;
+}
 
 @media screen and (min-width: 769px){
     .sentence p {
@@ -163,13 +182,28 @@ audio {
     margin-left: 23%;
 }
 
+.pbox1 p{
+    font-size: 1.4rem;
+
+}
+
 .scale2 {
     transform: scale(1);
     transform-origin: center;
     margin-top: -36rem;
     margin-left: 5rem;
 }
-    
+
+.elementor-divider {
+    margin-left: 2.5rem;
+}
+ 
+.text1 p{
+    font-size: 3rem;
+}
+
+
+
 }
 
 
