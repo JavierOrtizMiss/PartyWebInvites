@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
 /* Establecer propiedades a todos los elementos */
 * {
     margin: 0;
@@ -43,7 +43,6 @@ body {
 .wedding-date p,
 .text-song p {
     color: #7A2B38;
-    font-weight: 600;
 }
 
 .image-engaged {
@@ -92,7 +91,7 @@ audio {
 
 .pbox1 p{
     color: #FFFAE8;
-    font-weight: 600;
+    font-weight:lighter;
     font-style:inherit;
     text-align: center;
     margin: 3.5rem;
@@ -109,6 +108,19 @@ audio {
     font-family: 'MonteCarlo', cursive;
     margin: 2rem;
 }
+
+.text2 {
+    text-align: center;
+    color: #FFFAE8;
+    margin: 1rem;
+
+}
+
+.text2 b{
+    font-weight: bold;
+}
+
+
 
 @media screen and (min-width: 769px){
     .sentence p {
@@ -200,6 +212,12 @@ audio {
  
 .text1 p{
     font-size: 3rem;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: -1.5rem;
 }
 
 
