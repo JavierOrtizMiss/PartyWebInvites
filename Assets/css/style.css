@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+/* Establecer propiedades a todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Propiedades al body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffdf3;
+}
+
+/* Establecer fuente del texto */
+.fiancee h1,
+.fiance h1,
+.nexus h1 {
+    font-family: 'MonteCarlo', cursive;
+}
+
+/* Propiedades a seccion wedding-section */
+.wedding-section {
+    text-align: center;
+    padding: 3.125rem 0; 
+}
+
+/* Posicionar el texto del inicio */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Establecer color */
+.sentence p,
+.fiancee h1,
+.nexus h1,
+.fiance h1,
+.wedding-date p,
+.text-song p {
+    color: #7A2B38;
+}
+
+.image-engaged {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0.3125rem, -50%); 
+}
+
+.image-engaged img{
+    border-radius: 0.1875rem; 
+    border: 0.125rem solid #7A2B38;
+    width: 34.375rem; 
+    height: auto;
+    transform: rotate(5deg);
+}
+
+.image-down img {
+    width: 12rem;
+    height: auto;
+    transform: rotate(5deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(18rem, 8rem); 
+}
+
+.flowers img{
+    width: 100%;
+}
+
+.text-song {
+    text-align: center;
+    margin: 1rem;
+}
+
+audio {
+    margin: 1rem;
+}
+
+.red-box {
+    background-color: #961227;
+    border-radius: 1rem; 
+    border: 0.125rem solid #FCEEBF;
+}
+
+.pbox1 p{
+    color: #FFFAE8;
+    font-weight:lighter;
+    font-style:inherit;
+    text-align: center;
+    margin: 3.5rem;
+}
+
+.elementor-divider{
+    border: 0.05rem solid #FFFAE8; 
+    width: 45rem;
+}
+
+.text1 p{
+    text-align: center;
+    color: #FFFAE8;
+    font-family: 'MonteCarlo', cursive;
+    margin: 2rem;
+}
+
+.text2 {
+    text-align: center;
+    color: #FFFAE8;
+    margin: 1rem;
+
+}
+
+.text2 b{
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (min-width: 769px){
+    .sentence p {
+        font-size: 2rem; 
+        margin: 1rem; 
+        margin-left: 3.125rem; 
+        margin-top: 6.25rem; 
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 10rem; 
+    }
+
+    .fiancee h1{
+        margin: -3.125rem;
+    }
+
+    .nexus{
+        margin: -7.8125rem; 
+    }
+
+    .fiance {
+        margin: 4.3rem; 
+        margin-left: 3.12rem; 
+    }
+
+    .wedding-date p {
+        font-size: 1.5rem; 
+        margin: 3rem; 
+        margin-top: -4rem;
+    }
+
+    .content-logo img {
+        max-width: 60%;
+    }
+
+    .image-engaged {
+        margin-top: 4rem; 
+    }
+
+    .image-down {
+        margin-top: -27rem; 
+        margin-left: 46rem; 
+    }
+
+.scale {
+    transform: scale(0.59);
+    transform-origin: center;
+    margin-top: -33%;
+    margin-left: -40%;
+}
+
+.text-song p{
+    font-size: 1.2rem;
+    margin-top: 18rem;
+}
+
+audio {
+    position: absolute;
+    transform: translate(34.5rem,0rem);
+    display: flex;
+}
+
+.red-box {
+    width: 800px; 
+    height: 495px; 
+    transform-origin: center;
+    margin-top: 15%;
+    margin-left: 23%;
+}
+
+.pbox1 p{
+    font-size: 1.4rem;
+
+}
+
+.scale2 {
+    transform: scale(1);
+    transform-origin: center;
+    margin-top: -36rem;
+    margin-left: 5rem;
+}
+
+.elementor-divider {
+    margin-left: 2.5rem;
+}
+ 
+.text1 p{
+    font-size: 3rem;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: -1.5rem;
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .sentence p {
+        font-size: 0.4rem; 
+        margin: 3rem; 
+        margin-left: 3.125rem; 
+        margin-top: 3rem; 
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 2.5rem; 
+    }
+
+    .fiancee h1{
+        margin: -3.5rem;
+    }
+
+    .nexus{
+        margin: 1rem; 
+    }
+
+    .fiance {
+        margin: -2.5rem; 
+        margin-left: -2.5rem; 
+    }
+
+    .wedding-date p {
+        font-size: 0.4rem; 
+        margin: 3rem; 
+        margin-top: 2.5rem;
+    }
+
+    .content-logo img {
+        max-width: 60%;
+    }
+
+    .image-engaged {
+        width: 25rem;
+        margin-top: 53rem;
+
+    }
+
+    .image-down img{
+        width: 10rem;
+        margin-top: 47rem; 
+        margin-left: -6rem; 
+    }
+
+.scale {
+    transform: scale(1.5);
+    transform-origin: center;
+    margin-top: -5%;
+    margin-left: -3%;
+}
+
+.text-song p{
+    font-size: 1rem;
+    margin-top: 45rem;
+    margin-left: -1rem;
+}
+
+audio {
+    position: absolute;
+    transform: translate(1.3rem,0rem);
+    display: flex;
+}
+
+.red-box {
+    width: 340px; 
+    height: 600px; 
+    transform-origin: center;
+    margin-top: 10rem;
+    margin-left: 5%;
+}
+
+.pbox1 p{
+    font-size: 1.2rem;
+
+}
+
+.scale2 {
+    transform: scale(0.99);
+    transform-origin: center;
+    margin-top: -36rem;
+    margin-left: -27rem;
+}
+
+.elementor-divider {
+    margin-left: 1rem;
+    width: 19rem;
+}
+ 
+.text1 p{
+    font-size: 1.8rem;
+}
+
+.text2 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: -1rem;
+}
+
+}
+
