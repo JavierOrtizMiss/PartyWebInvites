@@ -122,6 +122,7 @@ audio {
 
 
 
+
 @media screen and (min-width: 769px){
     .sentence p {
         font-size: 2rem; 
@@ -220,9 +221,110 @@ audio {
     margin-top: -1.5rem;
 }
 
+}
 
+@media screen and (max-width: 600px){
+    .sentence p {
+        font-size: 0.4rem; 
+        margin: 3rem; 
+        margin-left: 3.125rem; 
+        margin-top: 3rem; 
+    }
+
+    .fiancee h1,
+    .nexus h1,
+    .fiance h1 {
+        font-size: 2.5rem; 
+    }
+
+    .fiancee h1{
+        margin: -3.5rem;
+    }
+
+    .nexus{
+        margin: 1rem; 
+    }
+
+    .fiance {
+        margin: -2.5rem; 
+        margin-left: -2.5rem; 
+    }
+
+    .wedding-date p {
+        font-size: 0.4rem; 
+        margin: 3rem; 
+        margin-top: 2.5rem;
+    }
+
+    .content-logo img {
+        max-width: 60%;
+    }
+
+    .image-engaged {
+        width: 25rem;
+        margin-top: 53rem;
+
+    }
+
+    .image-down img{
+        width: 10rem;
+        margin-top: 47rem; 
+        margin-left: -6rem; 
+    }
+
+.scale {
+    transform: scale(1.5);
+    transform-origin: center;
+    margin-top: -5%;
+    margin-left: -3%;
+}
+
+.text-song p{
+    font-size: 1rem;
+    margin-top: 45rem;
+    margin-left: -1rem;
+}
+
+audio {
+    position: absolute;
+    transform: translate(1.3rem,0rem);
+    display: flex;
+}
+
+.red-box {
+    width: 340px; 
+    height: 600px; 
+    transform-origin: center;
+    margin-top: 10rem;
+    margin-left: 5%;
+}
+
+.pbox1 p{
+    font-size: 1.2rem;
 
 }
 
+.scale2 {
+    transform: scale(0.99);
+    transform-origin: center;
+    margin-top: -36rem;
+    margin-left: -27rem;
+}
 
+.elementor-divider {
+    margin-left: 1rem;
+    width: 19rem;
+}
+ 
+.text1 p{
+    font-size: 1.8rem;
+}
+
+.text2 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: -1rem;
+}
+
+}
 
